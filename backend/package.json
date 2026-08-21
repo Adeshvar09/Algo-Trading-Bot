@@ -1,0 +1,26 @@
+{
+  "name": "algo-trading-bot-backend",
+  "version": "1.0.0",
+  "description": "Backend Express server for Algo Trading Bot paper trading platform",
+  "main": "dist/server.js",
+  "type": "commonjs",
+  "scripts": {
+    "build": "npx -p typescript tsc",
+    "start": "node dist/server.js",
+    "dev": "tsx watch src/server.ts"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "pg": "^8.11.5"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.2.0",
+    "@types/pg": "^8.23.1",
+    "tsx": "^4.23.12",
+    "typescript": "^5.4.5"
+  }
+}
