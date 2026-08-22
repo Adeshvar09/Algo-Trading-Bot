@@ -1,0 +1,2 @@
+-- Initial Migration Schema Placeholder
+-- Refer to root database/schema.sql for active schema
